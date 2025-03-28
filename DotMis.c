@@ -1,5 +1,6 @@
 /*
- *	DotMis by Plastic Bottleneck
+ *    DotMis by Plastic Bottleneck
+ *    https://github.com/plastic-bottleneck/
 */
 
 #include <stdio.h>
