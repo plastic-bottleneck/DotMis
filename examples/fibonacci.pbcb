@@ -1,0 +1,18 @@
+10 // Fibonacci Sequence Program in DotMis
+15 .p "Enter number of Fibonacci numbers: "
+20 .in X
+30 .if X < 1 .th 200
+40 .let A = 1
+50 .p A
+60 .if X = 1 .th 200
+70 .let B = 1
+80 .p B
+90 .let C = 2
+100 .if C > X .th 200
+110 .let D = A + B
+120 .p D
+130 .let A = B
+140 .let B = D
+150 .let C = C + 1
+160 .if C <= X .th 110
+200 .e

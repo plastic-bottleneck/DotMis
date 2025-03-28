@@ -1,0 +1,7 @@
+10 // Antenna Length Calculator in DotMis
+15 .p "Enter frequency in Hz: "
+20 .in F
+25 .let C = 299792458
+30 .let L = C / F
+40 .p "Antenna length (m): "; L
+50 end
