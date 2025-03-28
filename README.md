@@ -63,9 +63,9 @@ At the prompt, you can either enter dot-commands or store a BASIC program by typ
 
 - Immediate commands:
 
-.r – Runs the stored program.
+`.r` – Runs the stored program.
 
-.q – Quits the interpreter.
+`.q` – Quits the interpreter.
 
 - Example program:
 Load the following example program with `.loa fibonacci.plcb`.
